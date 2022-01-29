@@ -1,7 +1,7 @@
 .root{
     border: 1px solid black;
     height: 1968px;
-    width: 868px;
+    width: 968px;
     margin: 0 auto;
 }
 .p_tag{
@@ -21,7 +21,7 @@ nav{
 nav .bar{
     display: inline-block;
     vertical-align: top;
-   margin-left: 160px;
+    margin-left: 270px;
     border: 1px solid;
 }
 nav .bar li{
@@ -34,4 +34,28 @@ nav .bar li a{
 font-family: 'Rubik Beastly', cursive;
 font-family: 'Supermercado One', cursive;
 color: black;
+}
+.banner{
+    height: 450px;
+    border: 1px solid;   
+}
+.left,
+.right{
+    height: 95%;
+    border: 1px solid;
+    width: 49%;
+    float: left;
+}
+.left{
+    background-image: url("./img/bac.jpg");
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position-x: 80px;
+    background-position-y: center;
+    
+}
+.mainp{
+    width: 260px;
+    padding-left: 55px;
+    padding-top: 65px;
 }
