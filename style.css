@@ -8,7 +8,7 @@
     font-family: 'Oswald', sans-serif;
 font-family: 'Rubik Beastly', cursive;
 font-family: 'Supermercado One', cursive;
-/* padding-left: 75px; */
+padding-left: 75px;
 font-size: 25px;
 color:rgb(243, 97, 243);
 font-weight: bold;
@@ -16,9 +16,22 @@ display: inline-block;
 }
 nav{
     border: 1px solid;
-    height: 128px;
+    height: 90px;
 }
 nav .bar{
     display: inline-block;
     vertical-align: top;
+   margin-left: 160px;
+    border: 1px solid;
+}
+nav .bar li{
+    display: inline-block;
+    padding: 20px;
+}
+nav .bar li a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Rubik Beastly', cursive;
+font-family: 'Supermercado One', cursive;
+color: black;
 }
