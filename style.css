@@ -1,0 +1,24 @@
+.root{
+    border: 1px solid black;
+    height: 1968px;
+    width: 868px;
+    margin: 0 auto;
+}
+.p_tag{
+    font-family: 'Oswald', sans-serif;
+font-family: 'Rubik Beastly', cursive;
+font-family: 'Supermercado One', cursive;
+/* padding-left: 75px; */
+font-size: 25px;
+color:rgb(243, 97, 243);
+font-weight: bold;
+display: inline-block;
+}
+nav{
+    border: 1px solid;
+    height: 128px;
+}
+nav .bar{
+    display: inline-block;
+    vertical-align: top;
+}
