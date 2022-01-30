@@ -262,5 +262,56 @@ border: 1px solid;
 .b{
     padding-top: 69px;
 }
+.cont{
+    border: 1px solid;
+    position: relative;
+    width: 880px;
+    height: 256px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin: 25px auto;
+}
+.cont .box{
+         position: relative;
+         width: 280px;
+         height: 253px;
+         background-color: rgb(255, 248, 248);       
+         margin: 5px;
+         box-sizing: border-box;
+         overflow: hidden;
+         border-radius: 5px;
+         float: left;
+         /* text-align: center; */
+}
+.cont img{
+    width: 80px;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+.cont .x2{
+     padding-top: 30px;
+}
+.cont .x3{
+   width: 60px; 
+   padding-left: 120px;
+}
+.box h3{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 15px;
+}
+.box p{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 47px;
+    font-weight: bold;
+}
+.box h4{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 35px;
+    font-weight: bold;
+}
+
 
 
