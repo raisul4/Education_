@@ -39,14 +39,14 @@ color: black;
     height: 450px;
     border: 1px solid;   
 }
-.left,
+/* .left,
 .right{
     height: 95%;
     /* border: 1px solid; */
     /* width: 49%; */
-    float: left;
-}
-.left{
+    /* float: left;
+} */
+/* .left{
     background-image: url("./img/bac.jpg");
     background-repeat: no-repeat;
     background-size: 260px;
@@ -54,36 +54,44 @@ color: black;
     background-position-y: center;
     padding-right: 25px;  
     
-}
-.mainp{
+} */
+/* .mainp{
     width: 260px;
     padding-left: 55px;
     padding-top: 65px;
-}
-.right{
+} */
+/* .right{
     color: rgb(5, 95, 230);
     font-size: 30px;
     padding-left: 35px;
     padding-top: 75px;
-}
-.right p{
+} */
+/* .right p{
     color: black;
     font-family: 'Oswald', sans-serif;
 font-family: 'Rubik Beastly', cursive;
 font-family: 'Supermercado One', cursive;
 font-size: 20px;
-}
-.middle{
+} */
+.service{
+    height: 250px;
     border: 1px solid;
-    height: 80px;
-    
+    text-align: center;
+    background-color: rgb(15, 155, 155);
+    color: white;
 }
-.A,
-.B,
-.C,
-.D{
-    height: 98%;
-    width: 15%;
+.service h2{
+    text-align: left;
+    font-weight: bold;
+    padding-left: 130px;
+}
+.service p{
+    text-align: justify;
+    padding-left: 230px;
+    padding-right: 10px;
+}
+.about{
     border: 1px solid;
-    float: left;
+    height: 426px;
+    text-align: center;
 }
