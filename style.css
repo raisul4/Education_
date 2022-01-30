@@ -1,8 +1,67 @@
 .root{
     border: 1px solid black;
-    height: 3208px;
+    height: 3235px;
     width: 888px;
     margin: 0 auto;
+}
+.banner{
+    background-image:url("./img/schoolb.jpg"),url("./img/bac.jpg");
+   
+    background-repeat: no-repeat, no-repeat;
+    background-position: left,top left;
+    background-size: 276px,320px;
+    background-position-x: 50px,70px;
+    background-position-y: 40px,80px;
+}
+.heading{
+    text-align: center;
+    padding-left: 140px;
+    padding-top:5px;
+    font-size: 22px;
+    color: rgb(0, 114, 221);
+}
+.heading p{
+    font-size: 15px;
+    color: indianred;
+    padding-right: 75px;
+}
+.optional{
+    height: 128px;
+    /* border: 1px solid; */
+    width: 600px;
+    margin-left:240px;
+    display: inline-block;
+}
+.optional img{width: 60px;}
+.Cl,
+.Cls,
+.Clss,
+.Clsa{
+    /* border: 1px solid green; */
+    height: 88%;
+    width: 23%;
+    float: left;
+    /* margin-left: 5px; */
+    /* margin:5px; */
+    margin-top: 5px;
+   text-align: center;
+}
+.Cl{
+    background-color: rgb(26, 238, 185);
+    color: white;
+    margin-left: 15px;
+}
+.Cls{
+    background-color: yellow;
+   color: white;
+}
+.Clsa{
+    background-color: violet;
+    color: white;
+}
+.Clss{
+    background-color: rgb(0, 114, 221);
+    color: white;
 }
 .p_tag{
     font-family: 'Oswald', sans-serif;
@@ -15,14 +74,14 @@ font-weight: bold;
 display: inline-block;
 }
 nav{
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 90px;
 }
 nav .bar{
     display: inline-block;
     vertical-align: top;
     margin-left: 170px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 nav .bar li{
     display: inline-block;
@@ -37,45 +96,18 @@ color: black;
 }
 .banner{
     height: 450px;
-    border: 1px solid;   
+    /* border: 1px solid;    */
 }
-/* .left,
+.left,
 .right{
-    height: 95%;
-    /* border: 1px solid; */
-    /* width: 49%; */
-    /* float: left;
-} */
-/* .left{
-    background-image: url("./img/bac.jpg");
-    background-repeat: no-repeat;
-    background-size: 260px;
-    background-position-x: 80px;
-    background-position-y: center;
-    padding-right: 25px;  
-    
-} */
-/* .mainp{
-    width: 260px;
-    padding-left: 55px;
-    padding-top: 65px;
-} */
-/* .right{
-    color: rgb(5, 95, 230);
-    font-size: 30px;
-    padding-left: 35px;
-    padding-top: 75px;
-} */
-/* .right p{
-    color: black;
-    font-family: 'Oswald', sans-serif;
-font-family: 'Rubik Beastly', cursive;
-font-family: 'Supermercado One', cursive;
-font-size: 20px;
-} */
+    height: 90%;
+     /* border: 1px solid;  */
+     width: 47%;
+     float: left;
+}
 .service{
     height: 250px;
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: center;
     background-color: rgb(15, 155, 155);
     color: white;
@@ -91,11 +123,11 @@ font-size: 20px;
     padding-right: 10px;
 }
 .about{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 590px;
 }
 .about .abo{
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 100px;
     text-align: center;
     line-height: 16px;
@@ -107,7 +139,7 @@ font-family: 'Supermercado One', cursive;
 .A,
 .B{
     height: 82%;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 25%;
     float: left;
     margin-left: 20px;
@@ -116,7 +148,7 @@ font-family: 'Supermercado One', cursive;
 }
 .C{
     height: 82%;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 40%;
     float: left; 
     margin-left: 20px;
@@ -152,7 +184,7 @@ font-family: 'Supermercado One', cursive;
     padding-top: 0;
 }
 .service2{
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 356px;
     margin-top: 30px;
     background-color: rgb(252, 252, 17);
@@ -166,7 +198,7 @@ font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Rubik Beastly', cursive;
 font-family: 'Supermercado One', cursive;
 height: 90px;
-border: 1px solid;
+/* border: 1px solid; */
 }
 .serv h2{
     font-weight: bold;
@@ -175,7 +207,7 @@ border: 1px solid;
 .Y,
 .Z,
 .ZZ{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 60%;
     width: 20%;
     float: left;
@@ -207,13 +239,13 @@ border: 1px solid;
     color: gold;
 }
 .inovative{
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 400px;
 }
 .left,
 .right{
     height: 92%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 44%;
     float: left;
     margin-left: 25px;
@@ -245,7 +277,7 @@ border: 1px solid;
 }
 .enroll{
     height: 296px;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin-top: 27px;
     background-color: rgb(4, 141, 196);
     color: white;
@@ -253,7 +285,7 @@ border: 1px solid;
 .a,
 .b{
     height: 99%;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 40%;
     float: left;
     margin-left: 45px;
@@ -263,7 +295,7 @@ border: 1px solid;
     padding-top: 69px;
 }
 .cont{
-    border: 1px solid;
+    /* border: 1px solid; */
     position: relative;
     width: 880px;
     height: 256px;
@@ -275,7 +307,7 @@ border: 1px solid;
          position: relative;
          width: 280px;
          height: 253px;
-         background-color: rgb(255, 248, 248);       
+               
          margin: 5px;
          box-sizing: border-box;
          overflow: hidden;
@@ -311,6 +343,36 @@ border: 1px solid;
     text-align: center;
     padding-top: 35px;
     font-weight: bold;
+}
+.footer{
+    /* border: 1px solid blue; */
+    margin-top: 45px;
+    height: 265px;
+    color: white;
+    line-height: 20px;
+}
+.footer .box{
+    position: relative;
+    width: 293px;
+    height: 255px;
+    background-color: rgb(250, 132, 151);       
+    margin: 0px;  
+    overflow: hidden;   
+    float: left;
+}
+.footer h3{
+    padding-top: 65px;
+}
+.footer .box img{
+    width: 150px;
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.foot{
+    text-align: center;
+    padding-top: 25px;
+    background-color: gray;
+    height: 87px;
 }
 
 
