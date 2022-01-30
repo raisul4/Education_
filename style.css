@@ -1,7 +1,7 @@
 .root{
     border: 1px solid black;
     height: 1968px;
-    width: 968px;
+    width: 888px;
     margin: 0 auto;
 }
 .p_tag{
@@ -21,7 +21,7 @@ nav{
 nav .bar{
     display: inline-block;
     vertical-align: top;
-    margin-left: 270px;
+    margin-left: 170px;
     border: 1px solid;
 }
 nav .bar li{
@@ -42,8 +42,8 @@ color: black;
 .left,
 .right{
     height: 95%;
-    border: 1px solid;
-    width: 49%;
+    /* border: 1px solid; */
+    /* width: 49%; */
     float: left;
 }
 .left{
@@ -52,10 +52,38 @@ color: black;
     background-size: 260px;
     background-position-x: 80px;
     background-position-y: center;
+    padding-right: 25px;  
     
 }
 .mainp{
     width: 260px;
     padding-left: 55px;
     padding-top: 65px;
+}
+.right{
+    color: rgb(5, 95, 230);
+    font-size: 30px;
+    padding-left: 35px;
+    padding-top: 75px;
+}
+.right p{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Rubik Beastly', cursive;
+font-family: 'Supermercado One', cursive;
+font-size: 20px;
+}
+.middle{
+    border: 1px solid;
+    height: 80px;
+    
+}
+.A,
+.B,
+.C,
+.D{
+    height: 98%;
+    width: 15%;
+    border: 1px solid;
+    float: left;
 }
