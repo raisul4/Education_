@@ -335,9 +335,9 @@ height: 90px;
 }
 .box p{
     font-size: 15px;
-    text-align: center;
+             text-align: center;
     padding-top: 47px;
-    font-weight: bold;
+        font-weight: bold;
 }
 .box h4{
     font-size: 15px;
@@ -347,14 +347,14 @@ height: 90px;
 }
 .footer{
     /* border: 1px solid blue; */
-    margin-top: 45px;
+    margin-top: 38px;
     height: 265px;
     color: white;
     line-height: 20px;
 }
 .footer .box{
     position: relative;
-    width: 293px;
+    width: 296px;
     height: 255px;
     background-color: rgb(250, 132, 151);       
     margin: 0px;  
